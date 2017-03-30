@@ -1,4 +1,4 @@
-# TypeScript Immutable Utils
+# TypeScript Immutable Utils [![npm version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Type-safe immutability helpers for simple objects and arrays.
 
@@ -97,3 +97,8 @@ type Dict<V> = {[key: string]: V};
     
     If `values` is function, creates new dict with given keys whose values are the
     result of applying this function to the key.
+    
+[npm-image]: https://badge.fury.io/js/typescript-immutable-utils.svg
+[npm-url]: https://badge.fury.io/js/typescript-immutable-utils
+[travis-image]: https://travis-ci.org/aikoven/typescript-immutable-utils.svg?branch=master
+[travis-url]: https://travis-ci.org/aikoven/typescript-immutable-utils
