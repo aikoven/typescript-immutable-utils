@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "outDir": "es",
+    "declaration": true,
+    "stripInternal": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
