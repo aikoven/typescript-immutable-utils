@@ -1,6 +1,6 @@
 {
   "name": "typescript-immutable-utils",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "Type-safe immutability helpers for simple objects and arrays",
   "main": "lib/index.js",
   "module": "es/index.js",

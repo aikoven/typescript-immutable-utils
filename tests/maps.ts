@@ -21,7 +21,7 @@ test("maps", ({ test }: Test) => {
     assert.end();
   });
 
-  test("mapValues, associativity", assert => {
+  test("mapValues, composition", assert => {
     const src = new Map();
     src.set("lol", 42);
     const f = (x: number) => x * 2;
