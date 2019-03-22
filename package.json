@@ -29,8 +29,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/tape": "^4.2.29",
-    "cpx": "^1.5.0",
-    "redux": "^3.6.0",
     "rimraf": "^2.6.1",
     "tape": "^4.6.3",
     "ts-node": "^3.0.2",

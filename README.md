@@ -46,6 +46,12 @@ npm install --save typescript-immutable-utils
     
     If all values are the same, original object is returned.
 
+### Maps (ES-2015)
+
+* `mapValues<T, R>(src: Map<K, T>, map: (value: T, key: K) => R): Map<K, R>`
+
+    Returns new Map with updated values
+
 ### Dicts
 
 Dictionary type is a simple index signature:
