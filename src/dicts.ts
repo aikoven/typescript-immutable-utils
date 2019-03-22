@@ -17,13 +17,13 @@ export function hasKey(dict: Dict<any>, key: any): boolean {
 }
 
 export function mapValues<T, R>(dict: Dict<T>,
-                                map: (value: T) => R): Dict<R> {
+                                map: (value: T, key: string) => R): Dict<R> {
   const ret = createDict<R>();
 
   let changed = false;
 
   for (let key of Object.keys(dict)) {
-    ret[key] = map(dict[key]);
+    ret[key] = map(dict[key], key);
     if (ret[key] as any !== dict[key])
       changed = true;
   }
