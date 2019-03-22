@@ -35,4 +35,14 @@ test("maps", ({ test }: Test) => {
     );
     assert.end();
   });
+
+  test("mapValues, does actually work", assert => {
+    const src = new Map();
+    src.set("lol", 42);
+    const f = (x: number, k: string) => `k _ ${x * 2}`;
+
+    const result = mapValues(src, f);
+    assert.deepEqual(Array.from(result.entries()), [["lol", "k _ 84"]]);
+    assert.end();
+  });
 });
